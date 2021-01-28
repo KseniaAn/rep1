@@ -1,0 +1,45 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleWorkspace",
+    "Alias": "workspace0"
+  },
+  "Name": "Новый профиль навигации ",
+  "Description": "",
+  "Roles": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "RoleConfiguration",
+        "Alias": "rol"
+      }
+    ]
+  },
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Справочник ролей",
+        "Description": "",
+        "Priority": 2,
+        "ItemType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": "bp1_RolesCatalog",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Шаблон организационной структуры",
+        "Description": "",
+        "Priority": 1,
+        "ItemType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": "bp1_OrganizationalStructure",
+        "Severity": "None"
+      }
+    ]
+  }
+}
